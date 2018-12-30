@@ -1,0 +1,4 @@
+<mat-list-item id="item">
+        <div class="guess-number">{{guess[0]}}</div>
+        <div *ngFor="let i of [1,2,3,4]" [ngClass]="guess[i] == 2 ? 'guess-exact' : guess[i] == 1 ? 'guess-contains' : 'guess-miss'"></div>
+</mat-list-item>

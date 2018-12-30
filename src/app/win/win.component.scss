@@ -1,0 +1,29 @@
+.win {
+  letter-spacing: 3px;
+  font: {
+    family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    size: x-large;
+    weight: bold;
+  }
+  text: {
+    shadow: 1px 3px 1px rgba(0,0,0,.2);
+    align: center;
+    decoration: none;
+  }
+  animation: {
+    name: win-animation;
+    duration: 6s;
+    iteration-count: infinite;
+    direction: alternate;
+    timing-function: ease-in-out;
+  }
+}
+
+@keyframes win-animation {
+  from {
+    color: midnightblue;
+  }
+  to {
+    color: lightblue;
+  }
+}

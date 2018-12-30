@@ -1,0 +1,16 @@
+<section>
+  <form (ngSubmit)="onSubmit()" #gameForm="ngForm">
+    <mat-form-field>
+      <input matInput style="margin:3px" type="text" i18n-placeholder="@@guess-hint" placeholder="Your guess" style="text-align: right" [(ngModel)]="guess" #currentGuess="ngModel"
+        name="currentGuess" minLength="4" maxLength="4" pattern="[0-9]{4}" />
+    </mat-form-field>
+    <button mat-raised-button style="margin:3px" type="submit" [disabled]="!gameForm.form.valid" i18n="@@guess-input">Guess</button>
+  </form>
+</section>
+<section>
+  <div class="centered-list">
+    <mat-list>
+      <guess *ngFor="let guess of getGame().guesses" [guess]="guess"></guess>
+    </mat-list>
+  </div>
+</section>

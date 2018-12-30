@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2"
+  xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="title" datatype="html">
+        <source>Guess four game</source>
+        <target>Devinez quatre jeu</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/app.component.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="guess-hint" datatype="html">
+        <source>Your guess</source>
+        <target>Votre devin</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/main/main.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="guess-input" datatype="html">
+        <source>Guess</source>
+        <target>Devine</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/main/main.component.html</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="start" datatype="html">
+        <source>Start game</source>
+        <target>Démarrer jeu</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/select/select.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="start-tip" datatype="html">
+        <source>The game will show info about corectness of your guess for each digit entered</source>
+        <target>Le jeu affichera des informations sur l'exactitude de votre estimation pour chaque chiffre saisi</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/select/select.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="start-hard" datatype="html">
+        <source>Start hard game</source>
+        <target>Démarrer jeu difficile</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/select/select.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="start-hard-tip" datatype="html">
+        <source>The game will show info about correctness of your guess, but not about each digit entered</source>
+        <target>Le jeu affichera des informations sur l'exactitude de votre estimation, mais pas sur chaque chiffre saisi</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/select/select.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="win-message" datatype="html">
+        <source>You win!</source>
+        <target>Vous gagnez!</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/win/win.component.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

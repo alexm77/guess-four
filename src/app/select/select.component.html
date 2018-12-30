@@ -1,0 +1,12 @@
+<a routerLink="/guess-four">
+  <button style="margin:3px" mat-raised-button (click)="newGame(false)" i18n-matTooltip="@@start-tip" matTooltip="The game will show info about correctness of your guess for each digit entered"
+    i18n="@@start">
+    Start game
+  </button>
+</a>
+<a routerLink="/guess-four">
+  <button style="margin:3px" mat-raised-button (click)="newGame(true)" i18n-matTooltip="@@start-hard-tip" matTooltip="The game will show info about correctness of your guess, but not about each digit entered"
+    i18n="@@start-hard">
+    Start hard game
+  </button>
+</a>
